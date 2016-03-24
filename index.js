@@ -32,11 +32,11 @@ function getCurrencyInfo(locale){
 }
 
 function createHTMLBody(template, currencyMarkup){
-    return template.replace('${body}',currencyMarkup);
+    return template.replace('${body}', currencyMarkup);
 }
 
 function createCurrencyHTMLPartial(currencyInfo){
-    return `<p>id: ${currencyInfo.id}, symbol: ${currencyInfo.symbol}</p>`;
+    return `<p class="currencyInfo"><span class="id">${currencyInfo.id}</span><span class="symbol">${currencyInfo.symbol}</span></p>`;
 }
 
 function writeFile(filename, body){

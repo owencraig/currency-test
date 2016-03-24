@@ -122,3 +122,37 @@ body * {
 body {
     font-family: 'Brandon'
 }
+
+body.brandon {
+    font-family: 'Brandon'
+}
+
+body.arial {
+    font-family: 'arial'
+}
+
+body.asap {
+    font-family: 'Asap'
+}
+
+p.currencyInfo {
+    box-sizing: border-box;
+    padding: 2em;
+    margin: 1em;
+    width: 18%;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+p.currencyInfo .id, p.currencyInfo .symbol{
+    width: 50%;
+    display: inline-block;
+} 
+
+p.currencyInfo .symbol {
+    text-align: right;
+}
+
+#fontFamily {
+    display: block;
+}
